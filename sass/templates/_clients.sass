@@ -1,0 +1,67 @@
+.clients
+  position: relative
+  z-index: 0
+  padding-bottom: 300px
+  background: url("../img/buildies.png") bottom repeat-x
+  margin-top: -44px
+  margin-bottom: -3px
+  padding-bottom: 360px
+  &::before
+    content: ''
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-color: rgba($light, 0.9) 
+    z-index: -1
+  &__title-text
+    margin-top: 1rem
+    line-height: 2.1rem
+  &__card
+    display: flex
+    flex-direction: column
+    align-items: center
+  &__title
+    width: 324px
+    display: flex
+    align-items: center
+    margin-top: 4.7rem
+    font-family: 'Yeseva one', cursive
+    font-weight: normal
+    font-size: 18px
+    line-height: 23px
+    color: $black
+  &__name
+     margin-left: 1.5rem
+  &__text
+    margin-top: 1rem
+    margin-bottom: 3rem
+    width: 324px
+    font-family: 'Futura Book'
+    font-size: 15px
+    line-height: 27px
+    color: $secondary
+  &__wrap-tag
+    display: flex
+    margin-left: -5rem
+  &__tag
+    margin-left: 1px
+    padding: 0.85rem  1.4rem 0.85rem 1rem
+    display: flex
+    align-items: center
+    background-color: $primary
+    box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5)
+.tag
+  &__text
+    margin-left: 1rem
+    font-family: Yeseva One
+    font-style: normal
+    font-weight: normal
+    font-size: 17px
+    line-height: 24px
+    text-transform: uppercase
+    color: #FFFFFF
+
+
+
